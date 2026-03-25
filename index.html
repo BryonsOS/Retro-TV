@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retro TV Pages</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f172a;
+      --panel: #111827;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #22d3ee;
+      --border: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #020617 0%, var(--bg) 100%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    .card {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3rem); }
+    p { color: var(--muted); line-height: 1.6; }
+    ul { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 12px; }
+    a {
+      display: block;
+      padding: 14px 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.02);
+    }
+    a:hover {
+      border-color: var(--accent);
+      color: white;
+      transform: translateY(-1px);
+    }
+    .small { margin-top: 22px; font-size: 0.95rem; }
+    code { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Retro TV</h1>
+      <p>Homepage for previewing the current Retro TV pages. Open any page below to compare versions and decide which one you want to keep using.</p>
+      <ul>
+      <li><a href="dashboard-live.html">dashboard-live.html</a></li>
+      <li><a href="sick-tv-guide-netlify-patched.html">sick-tv-guide-netlify-patched.html</a></li>
+      <li><a href="sick-tv-guide-netlify-ready-ticket-gap.html">sick-tv-guide-netlify-ready-ticket-gap.html</a></li>
+      <li><a href="sick-tv-guide-netlify-ready-ticket-panel.html">sick-tv-guide-netlify-ready-ticket-panel.html</a></li>
+      <li><a href="sick-tv-guide-netlify-ready.html">sick-tv-guide-netlify-ready.html</a></li>
+      <li><a href="sick-tv-guide-playlists.html">sick-tv-guide-playlists.html</a></li>
+      <li><a href="sick-tv-guide-squarespace-embed-fixed.html">sick-tv-guide-squarespace-embed-fixed.html</a></li>
+      <li><a href="sick-tv-guide-squarespace-embed-trimmed.html">sick-tv-guide-squarespace-embed-trimmed.html</a></li>
+      <li><a href="sick-tv-guide-squarespace-embed-v2.html">sick-tv-guide-squarespace-embed-v2.html</a></li>
+      <li><a href="sick-tv-guide-squarespace-embed.html">sick-tv-guide-squarespace-embed.html</a></li>
+      <li><a href="sick-tv-guide-squarespace-iframe-embed.html">sick-tv-guide-squarespace-iframe-embed.html</a></li>
+      </ul>
+      <p class="small">Tip: once you choose a favorite, that file can become the permanent <code>index.html</code> later.</p>
+    </section>
+  </main>
+</body>
+</html>
